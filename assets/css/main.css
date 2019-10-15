@@ -1,0 +1,486 @@
+html, body {
+   font-family: 'Lora', serif;
+}
+
+p {
+   font-size: 18px;
+   line-height: 28px;
+}
+
+h2 {
+   font-size: 2rem;
+   line-height: 100%;
+}
+
+h3 {
+   font-size: 1.75rem;
+   line-height: 100%;
+}
+
+h4 {
+   font-size: 1.5rem;
+   line-height: 100%;
+}
+
+h5 {
+   font-size: 1rem;
+   line-height: 100%;
+}
+
+h2.lower-tag {
+   margin-bottom: 6px;
+}
+
+h4.raise-tag {
+   margin-top: 6px;
+   color: #800020;
+}
+
+h4.raise-title {
+   margin-top: 4px;
+}
+
+.slider .slides {
+   height: 350px;
+}
+
+.slider .indicators .indicator-item.active {
+   background-color: orange;
+}
+
+ul.slides {
+   height: 380px !important;
+} 
+
+.org-name {
+   font-style: italic;
+   font-weight: 700;
+   font-size: 1.1rem;
+   letter-spacing: 1px;
+}
+
+.logo {
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   box-shadow: 5px 5px 12px grey;
+}
+
+div.container .sidenav {
+   width: 14.5rem;
+}
+
+ 
+ul.sidenav a:hover {
+   background-color: #ffcc80 !important;
+}
+.menu-hover {
+   border-bottom: 1px solid orange;
+}
+
+nav {
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12);
+   -webkit-box-shadow:  0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12);
+}
+
+nav ul li {
+   display: inline-block;
+   float: none;
+}
+
+nav ul a {
+   font-size: 1.3rem;
+   color: #000;
+}
+
+nav ul a:hover {
+   background-color: inherit;
+   color: #1a237e !important;
+   font-weight: 600;
+}
+
+.active-page {
+   color: #3f51b5;
+   font-weight: 900;
+}
+
+.float-padding {
+   padding-right: 15px;
+   padding-top: 30px;
+}
+
+.freestyle-line:before {
+   content: " ";
+   display: block;
+   border-bottom: 1px solid rgb(36, 36, 36);
+   width: 150px;
+   margin-left: 65px;
+}
+
+.flow-text-mod {
+   font-size: 125%;
+}
+
+#paws {
+   padding-top: 35px;
+}
+
+.links {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.row#row-adjust .col {
+   padding-top: 1rem;
+   padding-bottom: 1.5rem;
+}
+
+.key-links {
+   padding-right: 0;
+   display: inline;
+}
+
+.link-size {
+height: 75px;
+width: 75px;
+}
+
+.taglines-long, .taglines-short, .taglines {
+padding-top: 15px;
+}
+
+.links a {
+display: inline-block;
+}
+
+.links a img {
+display: block;
+margin: auto;
+border: 0;
+}
+
+.links a span {
+display: block;
+}
+
+span {
+font-size: 12px;
+}
+
+ul#contact-list li {
+display: inline;
+padding: 12px;
+}
+
+ul.line-space, ul.line-space li ul {
+   padding-left: 20px;
+}
+
+ul.line-space li {
+line-height: 28px;
+list-style-type: circle !important;
+}
+
+ul.line-space li ul li {
+   list-style-type: square !important;
+}
+
+button.modal-trigger {
+   background-image: linear-gradient(rgb(243,243,53), rgb(226,74,74));
+   font-weight: 700;
+   text-align: center;
+   outline: none;
+   color: #000;
+   border: none;
+   border-radius: 15px 30px;
+}
+
+button.modal-trigger:hover {
+   box-shadow: 0 9px #999;
+}
+
+/* about */
+
+br.break601 {
+   display: none;
+}
+
+#bw-cat {
+    border-radius: 15px;
+    margin: 25px 25px 5px 0;
+}
+
+.cat-show-about {
+
+    background-image: url("../images/xmasfade.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#happy-cat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+ }
+
+div.price {
+   vertical-align: top;
+   text-align: center;
+   float: left;
+   padding-top: 25px;
+   padding-right: 25px;
+}
+
+.caption {
+   display: block;
+   font-size: 18px;
+   color: rgb(139, 9, 9);
+}
+
+/* news */
+
+.show-news {
+    font-size: 18px;
+    line-height: 28px;
+    background-image: url("../images/xmasfade.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+hr.short-line {
+   width: 50%;
+}
+
+hr#pointer {
+    width: 50%;
+    height: 20px;
+    position: relative;
+    background: #726967;
+    border: none;
+    font-weight: 900;
+    }
+    
+#pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    font-weight: 900;
+    }
+
+#pointer:before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid #000;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    font-weight: 900;
+    }
+
+.heading-left {
+   text-align: left;
+}
+
+.hotel {
+   height: 145px;
+   padding-left: 20px;
+}
+
+/* photos */
+
+.slider .slides li img {
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.slider .slides li {
+   background-color: #000;
+}
+.slider .slides li .caption {
+   top: 0;
+}
+
+ul.slides {
+   background-color: #000;
+}
+
+section.photos{
+   max-width: 45rem;
+}
+
+.photo-head {
+    background-color: #ffb34d;
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 15px;
+    font-weight: 900;
+}
+
+/* members */
+
+h4.new-members {
+   font-weight: 600;
+}
+
+.strong-text {
+   font-weight: 900 !important;
+}
+
+.current {
+    text-align: center;
+}
+
+.leaders {
+    text-align: center;
+    line-height: 28px;
+}
+
+.middle-lead {
+    text-align: center;
+}
+
+.member-wrapper {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 200px;
+    max-width: 200px;
+    height: auto;
+}
+
+.memberName {
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* awards */
+
+h2#title {
+   font-weight: 700;
+}
+
+.awards {
+    line-height: 28px;
+    background-image: url("../images/faded-paws.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#trophies-img {
+    margin: 15px 12px 0px 15px;
+    border-radius: 5px;
+}
+
+figure#roth, figure#cotter {
+   margin: 10px 25px 10px 0;
+}
+
+.rothermel, .cotter {
+    line-height: 28px;
+}
+
+.trophy-img {
+   margin-top: 15px;
+}
+
+.win-intro {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 425px;
+}
+
+.rothermel-wrapper, .cotter-wrapper, .president-wrapper {
+    display: grid;
+    margin: 0 auto;
+    max-width: 450px;
+    height: auto;
+    text-align: left;
+}
+
+.rothWins, .cottWins {
+    border-radius: 10px;
+    padding: 25px 0px 10px 20px;
+}
+
+.rothWins strong, .cottWins strong, .prez-win strong {
+   font-weight: 800;
+}
+
+/* media */
+
+@media screen and (max-width: 600px) {
+   br.medium-break {
+      display: none;
+   }
+
+   .row#row-adjust {
+      padding-right: 35px;
+   }
+
+   .logo {
+      margin-top: 56px;
+   }
+
+   .hotel {
+      height: 100px;
+      text-align: center;
+      padding-left: 0;
+   }
+
+   figure#roth, figure#cotter, #trophies-img {
+      max-width: 50% !important;
+   }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+   .logo {
+      margin-top: 64px;
+   }
+}
+
+@media screen and (min-width: 991px) {
+   br.medium-break {
+      display: none;
+   }
+
+   br.small-break {
+      display: none;
+   }
+
+}
+ 
+@media screen and (max-width: 991px) {
+   .transparent {
+      background-color: #bf095c !important;
+   }
+
+   nav.nav-wrapper {
+      position: fixed;
+      z-index: 3;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 601px) {
+   #bw-cat {
+    margin-right: 5rem;
+    margin-left: 40px;
+}
+}
